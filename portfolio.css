@@ -17,6 +17,10 @@
     margin-bottom: 1.1%;
 }
 
+#pic1:hover {
+    background: url("images\limbo hangman.jpg") no-repeat;
+}
+
 #zoom {
   width: 25px;
   height: 25px;
