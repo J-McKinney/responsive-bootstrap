@@ -7,14 +7,18 @@
     background-repeat: no-repeat;
     font-weight: bold;
     line-height: 200%;
+    overflow: auto;
+    clear: both;
 }
 
-.full img {
+img {
     text-align: center;
     margin-left: 2.1%;
     margin-right: 2.1%;
     margin-top: 5%;
     margin-bottom: 1.1%;
+    overflow: auto;
+    clear: both;
 }
 
 #zoom {
@@ -68,75 +72,89 @@ a:active {
     color: black;
   }
 
+  @media only screen and (max-width: 980px) {
+    #jumbo {
+      margin-right: 14.158636%;
+      margin-left: 14.158636%;
+      width: 65%;
+      overflow: auto;
+      clear: both;
+    }
+  }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-}
+  @media only screen and (max-width: 768px) {
+    #jumbo {
+      margin-right: 14.158636%;
+      margin-left: 14.158636%;
+      width: 70%;
+      text-align: center;
+      overflow: auto;
+      clear: both;
+    }
+  }
 
-@media only screen and (min-width: 321px) {
-}
+  @media only screen and (max-width: 1240px) {
+    #jumbo {
+      margin-right: 14.158636%;
+      margin-left: 14.158636%;
+      overflow: auto;
+      clear: both;
+    }
+  }
 
-@media only screen and (max-width: 320px) {
-}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-}
- 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-}
-
-@media only screen and (min-width: 1224px) {
-}
-
-@media only screen and (min-width: 1824px) {
-}
- 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-}
- 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-}
- 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-}
-
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-}
- 
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-}
- 
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-}
-
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-}
-
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-} 
+  /* @media only screen and (max-width: 980px) {
+    body {
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    .full img {
+      width: 70%;
+      height: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  
+    footer {
+      width: 100%;
+    } 
+  }
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      width: 90%;
+    }
+  
+    .full img {
+      width: 70%;
+      height: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  
+    footer {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    body {
+      width: 90%;
+    }
+  
+    header {
+      position: static;
+    }
+  
+    .full img {
+      width: 70%;
+      height: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  
+    footer {
+      width: 100%;
+    }
+  } */
