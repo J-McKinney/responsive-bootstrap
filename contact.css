@@ -19,7 +19,7 @@ body {
     resize: none;
 }
 
-#zoom {
+/* #zoom {
     width: 25px;
     height: 25px;
     background-color: red;
@@ -42,7 +42,7 @@ body {
     80%  {background-color:brown; left:75%; top:0px;}
     90% {background-color:grey; left:85%; top:0px;}
     100% {background-color:#222021; left:93%; top:0px;}
-  }
+  } */
 
 footer {
     position: sticky;
