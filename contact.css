@@ -1,22 +1,22 @@
 body {
-    background-size: cover;
-	background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .jumbotron {
-    margin-top: 5%;
-    margin-right: 14.158636%;
-    margin-left: 14.158636%;
-    /* background-image: url(LE_Blue-Hour_01.jpg); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-weight: bold;
-    line-height: 200%;
-    background: lightgrey!important;
+  margin-top: 5%;
+  margin-right: 14.158636%;
+  margin-left: 14.158636%;
+  /* background-image: url(LE_Blue-Hour_01.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  line-height: 200%;
+  background: lightgrey !important;
 }
 
 #exampleFormControlTextarea1 {
-    resize: none;
+  resize: none;
 }
 
 /* #zoom {
@@ -45,31 +45,30 @@ body {
   } */
 
 footer {
-    position: sticky;
-    border-top: 8px solid #4aaaa5;
-    color: black;
-    background-color: grey;
-    padding: 2%;
-    margin-top: 5%;
-    font-size: 1.3em;
+  position: sticky;
+  border-top: 8px solid #4aaaa5;
+  color: black;
+  background-color: grey;
+  padding: 2%;
+  margin-top: 5%;
+  font-size: 1.3em;
 }
 
 a:link {
-    color: black;
-}
-  
-a:visited {
-    color: black;
-}
-  
-a:hover {
-    color: black;
-}
-  
-a:active {
-    color: black;
+  color: black;
 }
 
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
 
 /* @media only screen and (max-width: 980px) {
     body {
